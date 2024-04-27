@@ -1,0 +1,38 @@
+.element{
+    color: green;
+}
+
+#ele{
+    color: blue;
+}
+
+/*  */
+.container{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border-color: red;
+    border-bottom: 2px solid red;
+    
+    /* background-color:hsl(360, 20%, 0%); */
+    /* background-image:url("./background.avif"); */
+    margin: 10px;
+    
+}
+ p{
+
+    border: 5px solid green;
+    border-radius: 10px;
+}
+
+
+/* body{
+    background-image: url("./background.avif");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+p{
+    /* background-image: url("./background.avif"); */
+}
