@@ -36,3 +36,87 @@
 p{
     /* background-image: url("./background.avif"); */
 }
+
+*,li,a{
+   box-sizing: border-box;
+   list-style: none;
+   text-decoration: none;
+}
+
+
+.container-one, .container-two{
+    width: 400px;
+    min-height: 200px;
+    background-color: blue;
+    margin: 10px 0;
+    padding: 20px 0;
+}
+
+.inner-div{
+    width: inherit;
+    background-color: purple;
+    height: 150px;
+    padding: 20px;
+}
+
+.container-one{
+    box-sizing: border-box;
+}
+
+.wrapper{
+    width: 100%;
+    height: 50px;
+    margin: 20px 0;
+    background-color: red;
+}
+
+.inner-wrapper{
+    width: 90%;
+    margin: 10px auto;
+    height: 50px;
+    padding: 5px;
+
+    /* background-color: purple; */
+}
+
+
+
+.link{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+.first-div{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    border-right: 1px solid gray;
+}
+
+.first{
+    width: 300px;
+    height: 40px;
+    padding: 10px;
+    /* border-right: 1px solid gray; */
+}
+
+.first-div a{
+    color: white;
+    text-align: center;
+    padding: 10px 10px 0;
+   
+
+    
+}
+
+.first a{
+    color: white;
+    text-align: center;
+    padding: 10px 10px 0;
+   
+
+    
+}
