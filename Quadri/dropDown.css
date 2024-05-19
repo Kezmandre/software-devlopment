@@ -1,0 +1,104 @@
+li {
+  list-style: none;
+}
+
+.container {
+  display: inline-block;
+  position: relative;
+  cursor: pointer;
+}
+
+.menu {
+  display: none;
+  position: absolute;
+  top: 20px;
+  width: 190px;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.3);
+}
+
+.fa-solid {
+  color: red;
+  font-size: 20px;
+  transition: transform 0.4s ease;
+}
+
+.container:hover .fa-solid {
+  transform: rotate(180deg);
+}
+
+li {
+  padding: 8px;
+  color: blueviolet;
+}
+
+li:nth-child(2) {
+  color: red;
+}
+
+li::first-line{
+    color: chartreuse;
+}
+
+.container:hover .menu {
+  display: block;
+}
+
+#text-one {
+  text-align: justify;
+}
+
+#text-one:hover {
+  color: red;
+}
+
+#text {
+  line-height: 30px;
+}
+
+a:link {
+  color: brown;
+}
+
+a:visited {
+  color: chocolate;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: blue;
+}
+
+input{
+    outline: none;
+    /* border: none; */
+    border-radius: 10px;
+}
+input:focus{
+    color: green;
+    border: 2px solid red;
+    /* background-color: red; */
+}
+
+h1{
+    text-align: center;
+    position: relative;
+    width: 300px;
+    border: 1px solid black;
+}
+
+h1::before{
+    content:"";
+    position: absolute;
+    top: 0;
+    right: 80px;
+    width: 100px;
+    height: 50px;
+    background-color: yellow;
+    z-index: -1;
+
+}
