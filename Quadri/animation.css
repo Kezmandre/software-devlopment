@@ -1,0 +1,69 @@
+.animation {
+  width: 100px;
+  height: 50px;
+  background-color: brown;
+  animation: animation 5s ease-in 3s infinite alternate;
+  position: relative;
+  /* animation-direction: alternate-reverse; */
+  /* animation-duration: 5s; */
+  animation-fill-mode: forwards;
+
+  /* animation-iteration-count: infinite; */
+  /* animation-delay: 3s; */
+  /* transition: width 1s, height 2s  ease-in; */
+  cursor: pointer;
+  margin: 20px;
+
+  /* transform: translate(80px, 200px); */
+  /* transform: rotate(-50deg); */
+  /* transform: scaleX(0.5); */
+  /* transform: skewX(); */
+  /* transform: rotateZ(50deg); */
+}
+
+#one {
+  animation-timing-function: linear;
+}
+
+#two {
+  animation-timing-function: ease;
+}
+
+#three {
+  animation-timing-function: ease-in;
+}
+
+#four {
+  animation-timing-function: ease-out;
+}
+
+#five {
+  animation-timing-function: ease-in-out;
+}
+
+.animation:hover {
+  /* width: 400px; */
+  /* height: 300px; */
+  /* transform: rotate(60deg); */
+}
+
+@keyframes animation {
+  /* 0% {background-color: brown; left:0; top: 0;}
+    25% {background-color: purple; left:200px; top: 0;}
+    50% {background-color: orange; left: 200px; top: 200px;}
+    75% {background-color: gray; left: 0; top: 200px;}
+    100% {background-color: blue; left: 0; top: 0;} */
+
+  from {
+    left: 0px;
+  }
+  to {
+    left: 300px;
+  }
+}
+
+@media (width < 400px) {
+  h1 {
+    color: red;
+  }
+}
