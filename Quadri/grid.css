@@ -1,3 +1,7 @@
+#grid-one{
+    grid-area: hope;
+}
+
 .grid-container{
     display: grid;
     height: 400px;
@@ -7,6 +11,9 @@
     /* gap: 30px; */
     justify-content: center;
     align-content: center;
+    grid-template-areas: 'hope hope hope hope hope';
+    /* grid-template-rows: 'hope hope'; */
+    /* grid-template-columns: 'hope hope hope'; */
 }
 
 .grid-container div{
@@ -21,10 +28,17 @@
     grid-column-end: 5; */
     /* grid-row-start: 1;
     grid-row-end: 3; */
+    /* grid-column: 1/5; */
+    /* grid-column: 1/ span 4; */
+    /* grid-row: 1/span 2; */
+    /* grid-area: 1/2/ 4/5; */
+
 }
 
+
+
 .flex{
-    /* margin-top: 40px; */
+    /* margin-top: 40px;   jk*/
     gap: 20px;
     display: flex;
     justify-content: space-between;
